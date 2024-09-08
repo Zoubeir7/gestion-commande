@@ -1,5 +1,5 @@
 export class Customer {
-  constructor() { }
+  // constructor() { }
 
   createCustomer(customer) {
     this.name = customer.name;
@@ -25,7 +25,7 @@ export class Customer {
 }
 
 export class Product {
-  constructor() { }
+  // constructor() { }
 
   createProduct(product) {
     this.name = product.name;
@@ -62,7 +62,7 @@ export class OrderDetail {
 }
 
 export class Order {
-  constructor() { }
+  // constructor() { }
 
   createOrder(order) {
     this.date = order.date;

@@ -1,9 +1,9 @@
 import express from "express";
 import bodyParser from "body-parser";
-import { Customer, Order, OrderDetail, Product } from "./gestionComande.js";
+import { Customer, Order, OrderDetail, Product } from "./gestionCommande.js";
 
 const app = express();
-const port = 3000;
+const port = 3002;
 app.use(bodyParser.json());
 
 
